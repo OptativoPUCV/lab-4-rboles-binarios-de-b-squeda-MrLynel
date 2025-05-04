@@ -52,3 +52,9 @@ treemap.c:142:8: note: previous definition of 'firstTreeMap' was here
  Pair * firstTreeMap(TreeMap * tree) {
         ^~~~~~~~~~~~
 12d5432
+Sun, May  4, 2025  5:42:26 PM: 
+ treemap.c | 3 ---
+ 1 file changed, 3 deletions(-)
+ tests:  25|1
+total_score: 60/70
+0c01d39
