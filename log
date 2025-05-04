@@ -40,3 +40,15 @@ treemap.c:149:8: note: previous definition of 'nextTreeMap' was here
  Pair * nextTreeMap(TreeMap * tree) {
         ^~~~~~~~~~~
 08f345d
+Sun, May  4, 2025  5:41:58 PM: 
+ treemap.c | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+Compilation failed
+In file included from test.c:4:0:
+treemap.c:146:8: error: redefinition of 'firstTreeMap'
+ Pair * firstTreeMap(TreeMap * tree) {
+        ^~~~~~~~~~~~
+treemap.c:142:8: note: previous definition of 'firstTreeMap' was here
+ Pair * firstTreeMap(TreeMap * tree) {
+        ^~~~~~~~~~~~
+12d5432
