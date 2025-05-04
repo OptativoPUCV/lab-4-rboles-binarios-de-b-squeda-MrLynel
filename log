@@ -28,3 +28,15 @@ Sun, May  4, 2025  5:26:57 PM:
  tests:  18|3
 total_score: 40/70
 4a10fcd
+Sun, May  4, 2025  5:41:19 PM: 
+ treemap.c | 25 ++++++++++++++++++++++++-
+ 1 file changed, 24 insertions(+), 1 deletion(-)
+Compilation failed
+In file included from test.c:4:0:
+treemap.c:169:8: error: redefinition of 'nextTreeMap'
+ Pair * nextTreeMap(TreeMap * tree) {
+        ^~~~~~~~~~~
+treemap.c:149:8: note: previous definition of 'nextTreeMap' was here
+ Pair * nextTreeMap(TreeMap * tree) {
+        ^~~~~~~~~~~
+08f345d
